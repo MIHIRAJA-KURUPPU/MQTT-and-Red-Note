@@ -1,0 +1,52 @@
+{
+    "environment": {
+      "temperature": {
+        "current": 25.0,
+        "unit": "Celsius",
+        "high": 30.0,
+        "low": 20.0,
+        "timestamp": "2024-09-13T14:30:00Z"
+      },
+      "humidity": {
+        "current": 60,
+        "unit": "%",
+        "high": 80,
+        "low": 40,
+        "timestamp": "2024-09-13T14:30:00Z"
+      }
+    },
+    "weather": {
+      "description": "Partly cloudy",
+      "forecast": [
+        {
+          "date": "2024-09-14",
+          "high_temperature": 28.0,
+          "low_temperature": 22.0,
+          "precipitation_chance": 10
+        },
+        {
+          "date": "2024-09-15",
+          "high_temperature": 26.0,
+          "low_temperature": 21.0,
+          "precipitation_chance": 20
+        }
+      ]
+    },
+    "location": {
+      "city": "Colombo",
+      "country": "Sri Lanka",
+      "coordinates": {
+        "latitude": 6.9271,
+        "longitude": 79.8612
+      }
+    },
+    "alerts": [
+      {
+        "type": "Heatwave",
+        "severity": "Moderate",
+        "message": "Be cautious of high temperatures over the next few days.",
+        "issued_at": "2024-09-12T10:00:00Z"
+      }
+    ]
+  }
+  
